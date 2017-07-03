@@ -30,9 +30,4 @@ WORKDIR /home
 RUN mkdir /home/modelica-libs
 ENV MODELICAPATH /home/jmodelica/ThirdParty/MSL:/home/modelica-libs
 
-RUN mkdir /home/bin
-COPY mo_to_fmu.py /home/bin
-
-ENTRYPOINT ["/home/jmodelica/bin/jm_python.sh", "/home/bin/mo_to_fmu.py"]
-
-CMD []
+CMD ["/bin/bash"]
