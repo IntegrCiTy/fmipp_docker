@@ -1,2 +1,2 @@
 # fmipp_docker
-FMIPP related Docker images Dockerfiles
+Dockerfiles for FMIPP related images 
